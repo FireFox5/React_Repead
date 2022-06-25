@@ -1,5 +1,6 @@
 import './App.css';
-  function AboutUs() {
+import AboutUs from "./pages/AboutYs/AboutUs";
+  function AboutYou() {
       return(
           <div className='footer' >
               <h2>Hello my name is Sultanmurat</h2>
@@ -13,10 +14,11 @@ function App() {
   return (
     <div className="App">
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
         </div>
         <div>
-            <AboutUs></AboutUs>
+            <AboutUs title=' Dastan' age="34"  />
+            <AboutYou></AboutYou>
         </div>
     </div>
   );
